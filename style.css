@@ -78,7 +78,7 @@ ul li span {
   font-size: 72rem;
   line-height: 80rem;
   letter-spacing: -2px;
-  
+
   width: 72rem;
   color: #090039;
 }
@@ -87,10 +87,37 @@ ul li {
   display: flex;
   gap: 38rem;
 
-  max-width:  257rem;
+  max-width: 257rem;
   font-weight: 700;
   font-size: 24rem;
   line-height: 32rem;
 
   color: #090039;
+}
+
+@media (min-width: 700px) {
+
+  body {
+    padding-top: 80rem;
+  }
+
+  main {
+    display: flex;
+    max-width: 1020px;
+    gap: 100rem;
+  }
+
+  .wrapperInfo {
+    max-width: 485px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul li {
+    align-items: center;
+    max-width: 440px;
+  }
 }
